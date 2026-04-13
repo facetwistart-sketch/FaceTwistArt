@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>FaceTwistArt - Рачно Цртани Карикатури | Уникатни Подароци Македонија</title>
+    <meta name="title" content="FaceTwistArt - Рачно Цртани Карикатури | Уникатни Подароци Македонија">
+    <meta name="description" content="Професионални рачно цртани карикатури во Македонија. Уникатни подароци за родендени, свадби и настани. Достава низ цела земја. Нарачајте денес!">
+    <meta name="keywords" content="карикатури, рачно цртани карикатури, подароци македонија, карикатура нарачка, уникатни подароци, портрети, цртежи, face twist art">
+    <meta name="author" content="FaceTwistArt">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://facetwist-art.vercel.app/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://facetwist-art.vercel.app/">
+    <meta property="og:title" content="FaceTwistArt - Рачно Цртани Карикатури | Уникатни Подароци">
+    <meta property="og:description" content="Професионални рачно цртани карикатури во Македонија. Уникатни подароци за родендени, свадби и настани. Достава низ цела земја.">
+    <meta property="og:image" content="https://facetwist-art.vercel.app/media/logo.png">
+    <meta property="og:locale" content="mk_MK">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://facetwist-art.vercel.app/">
+    <meta property="twitter:title" content="FaceTwistArt - Рачно Цртани Карикатури">
+    <meta property="twitter:description" content="Професионални рачно цртани карикатури во Македонија. Уникатни подароци за секоја прилика.">
+    <meta property="twitter:image" content="https://facetwist-art.vercel.app/media/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="media/logo.png">
+    <link rel="apple-touch-icon" href="media/logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "FaceTwistArt",
+      "image": "https://facetwist-art.vercel.app/media/logo.png",
+      "description": "Професионални рачно цртани карикатури во Македонија",
+      "url": "https://facetwist-art.vercel.app/",
+      "telephone": "+38972215030",
+      "email": "facetwistart@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MK",
+        "addressLocality": "Македонија"
+      },
+      "priceRange": "1500-3000 МКД",
+      "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-14:00",
+      "sameAs": [
+        "https://www.instagram.com/facetwistart/"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "MKD",
+        "lowPrice": "1500",
+        "highPrice": "3000"
+      }
+    }
+    </script>
+</head>
+<body>
+
+<!-- ============================================
+     НАВИГАЦИЈА
+     ============================================ -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#home" class="nav-logo">
+            <img src="media/logo.png" alt="FaceTwistArt Лого">
+            <div class="nav-logo-text">Face<span>Twist</span>Art</div>
+        </a>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Дома</a>
+            <a href="#products">Производи</a>
+            <a href="#contact" class="nav-cta">Контакт</a>
+        </div>
+        <div class="nav-hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- ============================================
+     ДОМА / ХЕРО СЕКЦИЈА
+     ============================================ -->
+<section class="hero" id="home">
+    <!-- Background drawing animation -->
+    <div class="hero-bg-drawing">
+        <svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <!-- Face 1 (left) -->
+            <ellipse class="bg-draw bg-d1" cx="180" cy="280" rx="90" ry="110"/>
+            <circle class="bg-draw bg-d2" cx="155" cy="255" r="12"/>
+            <circle class="bg-draw bg-d2" cx="205" cy="255" r="12"/>
+            <path class="bg-draw bg-d3" d="M150 310 Q180 345 210 310"/>
+            <path class="bg-draw bg-d2" d="M180 270 Q173 290 180 296 Q187 290 180 270"/>
+            <path class="bg-draw bg-d3" d="M110 200 Q150 155 190 165 Q230 155 260 195"/>
+            <!-- Face 2 (right) -->
+            <ellipse class="bg-draw bg-d4" cx="720" cy="320" rx="80" ry="100"/>
+            <circle class="bg-draw bg-d5" cx="698" cy="298" r="10"/>
+            <circle class="bg-draw bg-d5" cx="742" cy="298" r="10"/>
+            <path class="bg-draw bg-d6" d="M700 350 Q720 378 740 350"/>
+            <path class="bg-draw bg-d5" d="M720 310 Q714 325 720 330 Q726 325 720 310"/>
+            <path class="bg-draw bg-d6" d="M655 245 Q690 210 725 218 Q760 210 790 240"/>
+            <!-- Decorative strokes -->
+            <path class="bg-draw bg-d3" d="M350 120 Q400 80 450 120 Q500 160 550 120"/>
+            <path class="bg-draw bg-d4" d="M300 550 Q380 510 460 550 Q540 590 620 550"/>
+            <circle class="bg-draw bg-d5" cx="420" cy="450" r="30"/>
+            <circle class="bg-draw bg-d6" cx="480" cy="460" r="20"/>
+            <path class="bg-draw bg-d2" d="M80 500 Q120 470 160 500 Q200 530 240 500"/>
+            <path class="bg-draw bg-d4" d="M660 120 Q700 90 740 120 Q780 150 820 120"/>
+            <!-- Pencil strokes -->
+            <line class="bg-draw bg-d1" x1="50" y1="150" x2="130" y2="130"/>
+            <line class="bg-draw bg-d3" x1="770" y1="500" x2="850" y2="480"/>
+            <path class="bg-draw bg-d5" d="M380 200 L420 180 L400 220 Z"/>
+            <path class="bg-draw bg-d6" d="M500 280 Q520 260 540 280 Q520 300 500 280"/>
+        </svg>
+    </div>
+
+    <div class="container">
+        <div class="hero-content reveal">
+            <img src="media/logo.png" alt="FaceTwistArt" class="hero-logo">
+            <h1>Уникатни карикатури –<br><span>Рачно цртани со душа</span></h1>
+            <p class="hero-sub">Уметноста за пресврт на лица ги трансформира лицата во уникатни уметнички дела што раскажуваат приказни.</p>
+            <div class="hero-actions">
+                <a href="#products" class="btn btn-primary">Производи</a>
+                <a href="#contact" class="btn btn-ghost">Контактирајте нè</a>
+            </div>
+        </div>
+
+        <!-- Галерија примери -->
+        <div class="examples-grid reveal">
+            <div class="example-card">
+                <img src="media/examples/example1.jpg" alt="Пример карикатура 1" loading="lazy">
+            </div>
+            <div class="example-card">
+                <img src="media/examples/example2.jpg" alt="Пример карикатура 2" loading="lazy">
+            </div>
+        </div>
+
+        <!-- Достапни формати -->
+        <div class="formats-section reveal">
+            <div class="formats-label">Достапни формати</div>
+            <h3>Изберете ја вашата големина</h3>
+            <div class="formats-img-wrap">
+                <img src="media/allformats.jpg" alt="Сите достапни формати" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     ПРОИЗВОДИ СЕКЦИЈА
+     ============================================ -->
+<section class="section section-dark" id="products">
+    <div class="container">
+        <div class="section-header center reveal">
+            <div class="overline">Производи</div>
+            <h2>Изберете формат</h2>
+            <p>Висококвалитетни рачно цртани карикатури достапни во четири големини. Секоја е уникатно уметничко дело создадено само за вас.</p>
+        </div>
+        <div class="products-grid reveal">
+            <!-- Производ 1: A4 -->
+            <div class="product-card" id="card-A4">
+                <img src="media/a4.jpg" alt="A4 Карикатура" class="product-img" loading="lazy">
+                <div class="product-info">
+                    <div class="product-title">A4 Карикатура</div>
+                    <div class="product-dims">Димензии: 30 × 40 см</div>
+                    <div class="product-price">1.500 <small>МКД</small></div>
+                    <button class="btn-buy" onclick="openOrderModal('A4','1.500 МКД','30 × 40 см')">Нарачај</button>
+                </div>
+            </div>
+            <!-- Производ 2: A3 -->
+            <div class="product-card" id="card-A3">
+                <img src="media/a3.jpg" alt="A3 Карикатура" class="product-img" loading="lazy">
+                <div class="product-info">
+                    <div class="product-title">A3 Карикатура</div>
+                    <div class="product-dims">Димензии: 20 × 30 см</div>
+                    <div class="product-price">2.000 <small>МКД</small></div>
+                    <button class="btn-buy" onclick="openOrderModal('A3','2.000 МКД','20 × 30 см')">Нарачај</button>
+                </div>
+            </div>
+            <!-- Производ 3: A2 -->
+            <div class="product-card" id="card-A2">
+                <img src="media/a2.jpg" alt="A2 Карикатура" class="product-img" loading="lazy">
+                <div class="product-info">
+                    <div class="product-title">A2 Карикатура</div>
+                    <div class="product-dims">Димензии: 40 × 60 см</div>
+                    <div class="product-price">2.500 <small>МКД</small></div>
+                    <button class="btn-buy" onclick="openOrderModal('A2','2.500 МКД','40 × 60 см')">Нарачај</button>
+                </div>
+            </div>
+            <!-- Производ 4: A1 -->
+            <div class="product-card" id="card-A1">
+                <img src="media/a1.jpg" alt="A1 Карикатура" class="product-img" loading="lazy">
+                <div class="product-info">
+                    <div class="product-title">A1 Карикатура</div>
+                    <div class="product-dims">Димензии: 60 × 90 см</div>
+                    <div class="product-price">3.000 <small>МКД</small></div>
+                    <button class="btn-buy" onclick="openOrderModal('A1','3.000 МКД','60 × 90 см')">Нарачај</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     ЗОШТО ДА НÈ ИЗБЕРЕТЕ
+     ============================================ -->
+<section class="section" id="why-us">
+    <div class="container">
+        <div class="section-header center reveal">
+            <div class="overline">Зошто ние</div>
+            <h2>Зошто да нè изберете</h2>
+            <p>Повеќе од 80+ задоволни клиенти ни ја дадоа својата доверба. Еве зошто:</p>
+        </div>
+        <div class="why-us-stats reveal">
+            <div class="stat-big">
+                <div class="stat-number" id="clientCount">0+</div>
+                <div class="stat-label">Задоволни клиенти</div>
+                <div class="star-rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="rating-text">5.0 Оценка</span>
+                </div>
+            </div>
+        </div>
+        <div class="why-us-grid reveal">
+            <div class="why-card">
+                <div class="why-icon">✏️</div>
+                <h4>100% Рачно цртани</h4>
+                <p>Секоја карикатура е целосно рачно нацртана – без филтри, без AI, чиста уметност.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🎭</div>
+                <h4>Уникатен стил</h4>
+                <p>Секое дело е оригинално и неповторливо, прилагодено на вашата личност.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🎁</div>
+                <h4>Идеален подарок</h4>
+                <p>Совршен подарок за родендени, свадби, дипломирања и секоја специјална прилика.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">⭐</div>
+                <h4>Гарантирано задоволство</h4>
+                <p>Работиме додека не бидете целосно задоволни со крајниот резултат.</p>
+            </div>
+        </div>
+
+        <!-- Инфо картички -->
+        <div class="why-us-info reveal">
+            <div class="why-card">
+                <div class="why-icon">🎨</div>
+                <h4>Како функционира?</h4>
+                <p>1. Изберете формат и големина<br>2. Кликнете „Нарачај“<br>3. Пополнете ја формата за нарачка<br>4. Испратете референтна фотографија<br>5. Добивате уникатна карикатура</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">⏱️</div>
+                <h4>Рок на изработка</h4>
+                <p>Повеќето карикатури се завршени за 3–5 работни дена. Итни нарачки се достапни по договор.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">📦</div>
+                <h4>Достава</h4>
+                <p>Доставуваме низ цела Македонија.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     КОНТАКТ СЕКЦИЈА
+     ============================================ -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="overline">Контакт</div>
+            <h2>Контактирајте нè</h2>
+            <p>Имате прашање или идеја? Пишете ни и ќе ви одговориме во најкраток можен рок.</p>
+        </div>
+        <div class="contact-grid reveal">
+            <div class="contact-form-wrap">
+                <h3>Испратете порака</h3>
+                <p class="sub">Пополнете ги полињата подолу и ќе ви одговориме наскоро.</p>
+                <form id="contactForm" action="https://formspree.io/f/xyklykqp" method="POST" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Име</label>
+                            <input type="text" id="contactName" name="name" placeholder="Име" required>
+                            <div class="form-error">Внесете го вашето име</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSurname">Презиме</label>
+                            <input type="text" id="contactSurname" name="surname" placeholder="Презиме" required>
+                            <div class="form-error">Внесете го вашето презиме</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactPhone">Телефонски број</label>
+                            <input type="tel" id="contactPhone" name="phone" placeholder="070 123 456" required>
+                            <div class="form-error">Формат: 07X XXX XXX (пр. 070 123 456)</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Е-пошта</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="example@email.com" required>
+                            <div class="form-error">Внесете валидна е-пошта со @</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Порака</label>
+                        <textarea id="contactMessage" name="message" placeholder="Напишете ја вашата порака овде..." required></textarea>
+                        <div class="form-error">Внесете порака</div>
+                    </div>
+
+                    <button type="submit" class="form-submit" id="contactSubmitBtn">Испрати порака</button>
+                </form>
+            </div>
+
+            <!-- Десна страна -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="icon">📧</div>
+                    <h4>Е-пошта</h4>
+                    <p><a href="mailto:facetwistart@gmail.com" style="color:var(--accent);text-decoration:none">facetwistart@gmail.com</a></p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">📞</div>
+                    <h4>Телефон</h4>
+                    <p><a href="tel:+38972215030" style="color:var(--accent);text-decoration:none">+389 72 215 030</a></p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">📱</div>
+                    <h4>Социјални мрежи</h4>
+                    <p>
+                        <a href="https://www.instagram.com/facetwistart/" target="_blank" rel="noopener noreferrer" style="color:var(--accent);text-decoration:none">Instagram</a>
+                        &nbsp;&middot;&nbsp;
+                        <a href="https://wa.me/38972215030" target="_blank" rel="noopener noreferrer" style="color:var(--accent);text-decoration:none">WhatsApp</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     ЗАДОВОЛНИ КЛИЕНТИ
+     ============================================ -->
+<section class="section section-dark" id="clients">
+    <div class="container">
+        <div class="section-header center reveal">
+            <div class="overline">Галерија</div>
+            <h2>Задоволни клиенти</h2>
+            <p>Погледнете дел од нашите изработки и задоволни клиенти.</p>
+        </div>
+        <div class="clients-grid reveal">
+            <div class="client-card">
+                <img src="media/examples/example1.jpg" alt="Карикатура 1" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/example2.jpg" alt="Карикатура 2" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/example3.png" alt="Карикатура 3" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/example4.png" alt="Карикатура 4" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/example5.png" alt="Карикатура 5" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/example6.png" alt="Карикатура 6" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/1776091156654031.png" alt="Карикатура 7" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/1776091157560503.png" alt="Карикатура 8" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/177609115778753.png" alt="Карикатура 9" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/177609115859435.png" alt="Карикатура 10" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/1776091158677281.png" alt="Карикатура 11" loading="lazy">
+            </div>
+            <div class="client-card">
+                <img src="media/examples/1776091182492476.png" alt="Карикатура 12" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     МОДАЛ ЗА НАРАЧКА (се отвора од „Нарачај")
+     ============================================ -->
+<div class="modal-overlay" id="orderModal">
+    <div class="modal">
+        <button class="modal-close" onclick="closeOrderModal()">&times;</button>
+        <h3>Нарачка</h3>
+        <p class="modal-sub">Пополнете ги податоците за да ја завршите нарачката.</p>
+
+        <!-- Избран производ приказ -->
+        <div class="selected-product">
+            <img id="modalImg" src="media/a4.jpg" alt="Производ">
+            <div class="sp-info">
+                <div class="sp-format" id="modalFormat">A4 Карикатура</div>
+                <div style="font-size:0.8rem;color:var(--text-muted)" id="modalDims">30 × 40 см</div>
+                <div class="sp-price" id="modalPrice">1.500 МКД</div>
+            </div>
+        </div>
+
+        <form id="orderForm" action="https://formspree.io/f/xzdybdla" method="POST" novalidate>
+            <!-- Скриени полиња -->
+            <input type="hidden" id="orderFormat" name="format" value="">
+            <input type="hidden" id="orderPrice" name="price" value="">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="orderName">Име</label>
+                    <input type="text" id="orderName" name="name" placeholder="Име" required>
+                    <div class="form-error">Внесете го вашето име</div>
+                </div>
+                <div class="form-group">
+                    <label for="orderSurname">Презиме</label>
+                    <input type="text" id="orderSurname" name="surname" placeholder="Презиме" required>
+                    <div class="form-error">Внесете го вашето презиме</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="orderCity">Град</label>
+                <select id="orderCity" name="city" required>
+                    <option value="">Изберете град</option>
+                    <option value="Скопје">Скопје</option>
+                    <option value="Битола">Битола</option>
+                    <option value="Куманово">Куманово</option>
+                    <option value="Прилеп">Прилеп</option>
+                    <option value="Тетово">Тетово</option>
+                    <option value="Охрид">Охрид</option>
+                    <option value="Велес">Велес</option>
+                    <option value="Штип">Штип</option>
+                    <option value="Струмица">Струмица</option>
+                    <option value="Гостивар">Гостивар</option>
+                    <option value="Кавадарци">Кавадарци</option>
+                    <option value="Кочани">Кочани</option>
+                    <option value="Кичево">Кичево</option>
+                    <option value="Струга">Струга</option>
+                    <option value="Радовиш">Радовиш</option>
+                    <option value="Гевгелија">Гевгелија</option>
+                    <option value="Дебар">Дебар</option>
+                    <option value="Свети Николе">Свети Николе</option>
+                    <option value="Неготино">Неготино</option>
+                    <option value="Крива Паланка">Крива Паланка</option>
+                    <option value="Берово">Берово</option>
+                    <option value="Делчево">Делчево</option>
+                    <option value="Виница">Виница</option>
+                    <option value="Пробиштип">Пробиштип</option>
+                    <option value="Ресен">Ресен</option>
+                    <option value="Кратово">Кратово</option>
+                    <option value="Македонски Брод">Македонски Брод</option>
+                    <option value="Македонска Каменица">Македонска Каменица</option>
+                    <option value="Валандово">Валандово</option>
+                    <option value="Богданци">Богданци</option>
+                    <option value="Демир Хисар">Демир Хисар</option>
+                    <option value="Демир Капија">Демир Капија</option>
+                    <option value="Пехчево">Пехчево</option>
+                    <option value="Крушево">Крушево</option>
+                    <option value="Дојран">Дојран</option>
+                    <option value="Желино">Желино</option>
+                    <option value="Јегуновце">Јегуновце</option>
+                    <option value="Теарце">Теарце</option>
+                    <option value="Брвеница">Брвеница</option>
+                    <option value="Боговиње">Боговиње</option>
+                    <option value="Врапчиште">Врапчиште</option>
+                    <option value="Маврово и Ростуше">Маврово и Ростуше</option>
+                    <option value="Центар Жупа">Центар Жупа</option>
+                    <option value="Пласница">Пласница</option>
+                    <option value="Долнени">Долнени</option>
+                    <option value="Могила">Могила</option>
+                    <option value="Новаци">Новаци</option>
+                    <option value="Градско">Градско</option>
+                    <option value="Росоман">Росоман</option>
+                    <option value="Лозово">Лозово</option>
+                    <option value="Чучер-Сандево">Чучер-Сандево</option>
+                    <option value="Студеничани">Студеничани</option>
+                    <option value="Сопиште">Сопиште</option>
+                    <option value="Зеленикoво">Зеленикoво</option>
+                    <option value="Петровец">Петровец</option>
+                    <option value="Илинден">Илинден</option>
+                    <option value="Арачиново">Арачиново</option>
+                    <option value="Липково">Липково</option>
+                    <option value="Старо Нагоричане">Старо Нагоричане</option>
+                    <option value="Ранковце">Ранковце</option>
+                    <option value="Карбинци">Карбинци</option>
+                    <option value="Зрновци">Зрновци</option>
+                    <option value="Чешиново-Облешево">Чешиново-Облешево</option>
+                    <option value="Конче">Конче</option>
+                    <option value="Босилово">Босилово</option>
+                    <option value="Ново Село">Ново Село</option>
+                    <option value="Василево">Василево</option>
+                    <option value="Вевчани">Вевчани</option>
+                    <option value="Дебарца">Дебарца</option>
+                    <option value="Сарај">Сарај</option>
+                    <option value="Бутел">Бутел</option>
+                    <option value="Гази Баба">Гази Баба</option>
+                    <option value="Аеродром">Аеродром</option>
+                    <option value="Кисела Вода">Кисела Вода</option>
+                    <option value="Ѓорче Петров">Ѓорче Петров</option>
+                    <option value="Карпош">Карпош</option>
+                    <option value="Центар">Центар</option>
+                    <option value="Чаир">Чаир</option>
+                    <option value="Шуто Оризари">Шуто Оризари</option>
+                </select>
+                <div class="form-error">Изберете го вашиот град</div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="orderPhone">Телефонски број</label>
+                    <input type="tel" id="orderPhone" name="phone" placeholder="070 123 456" required>
+                    <div class="form-error">Формат: 07X XXX XXX (пр. 070 123 456)</div>
+                </div>
+                <div class="form-group">
+                    <label for="orderEmail">Е-пошта</label>
+                    <input type="email" id="orderEmail" name="email" placeholder="example@email.com" required>
+                    <div class="form-error">Внесете валидна е-пошта со @</div>
+                </div>
+            </div>
+
+            <div style="padding:14px 16px;background:var(--bg-primary);border:1px solid var(--border);border-radius:8px;margin-bottom:20px;font-size:0.85rem;color:var(--text-secondary);line-height:1.6">
+                📸 <strong style="color:var(--text-primary)">Референтна фотографија:</strong> По испраќање на нарачката, испратете ја фотографијата преку
+                <a href="https://wa.me/38972215030" target="_blank" rel="noopener noreferrer" style="color:var(--accent);text-decoration:none;font-weight:600">WhatsApp</a>,
+                <a href="https://www.instagram.com/facetwistart/" target="_blank" rel="noopener noreferrer" style="color:var(--accent);text-decoration:none;font-weight:600">Instagram</a> или
+                <a href="mailto:facetwistart@gmail.com" style="color:var(--accent);text-decoration:none;font-weight:600">е-пошта</a>.
+            </div>
+
+            <button type="submit" class="form-submit" id="orderSubmitBtn">Испрати нарачка</button>
+        </form>
+    </div>
+</div>
+
+<!-- ============================================
+     ФУТЕР
+     ============================================ -->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-find">Најдете нè на:</div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/facetwistart/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                    <img src="media/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://wa.me/38972215030" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                    <img src="media/wa.webp" alt="WhatsApp">
+                </a>
+            </div>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-top:4px">📧 <a href="mailto:facetwistart@gmail.com" style="color:var(--accent);text-decoration:none">facetwistart@gmail.com</a> &nbsp;|&nbsp; 📞 <a href="tel:+38972215030" style="color:var(--accent);text-decoration:none">+389 72 215 030</a></p>
+            <p class="footer-credit">&copy; 2026 FaceTwistArt. Креирано од: <a href="https://mk.linkedin.com/in/marko-srbakov-a65b43235">Марко Србаков</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>

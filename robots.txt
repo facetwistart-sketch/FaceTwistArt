@@ -1,0 +1,10 @@
+# robots.txt for FaceTwistArt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://facetwist-art.vercel.app/sitemap.xml
+
+# Disallow admin/private areas (if any in future)
+# Disallow: /admin/
+# Disallow: /admin/
